@@ -1,6 +1,6 @@
 import React from "react";
 
-function Stock() {
+function Stock({CompantName, StockPrice}) {
   return (
     <div>
       <div className="card">

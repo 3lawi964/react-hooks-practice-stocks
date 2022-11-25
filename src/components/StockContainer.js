@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Stock from "./Stock";
+// import db from "../../db.json";
+// console.log(db);
 
+useEffect(async () => {});
 function StockContainer() {
   return (
     <div>
